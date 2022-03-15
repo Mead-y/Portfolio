@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding:0;
+	font-family: ubuntu, sans-serif;
+}
+
+body {
+    margin: 0;
+    /*background-image: url("https://images.pexels.com/photos/5044497/pexels-photo-5044497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-color: #cccccc;*/
+
+   }
+	
+  div.links {
+		border-bottom-style: solid;
+		border-bottom-color: Lightgrey;
+		list-style: none;
+		margin: 0 2px;
+		padding: 10px;
+		display: flex;
+		justify-content: space-around;
+		  }
+		
+		
+	.links a{
+		display:inline;
+		justify-content: space-between;
+		color: #7393B3;
+		line-height:1.5em;
+		padding-left: 25px;
+		text-decoration:none;
+		height:90px;
+		font-size: 40px;
+		border-bottom-style: hidden;
+		
+	}
+	
+	img{
+	    max-height: 20%;
+	    max-width: 100%;
+		margin-bottom: -23px;
+	    
+	}
+	
+	div.aboutme {
+		border:2px transparent solid;
+		background-color:white;
+		border-top-color:#7393B3;
+		border-bottom-color:#7393B3;
+		background-color:transparent;
+		margin:20px;
+		margin-right:50%;
+		padding-bottom:200px;
+		padding-top:9px;
+		
+	}
+	
+
+	
+	div.aboutme div {
+		display:flex;
+		justify-content:center;
+		text-align:center;
+	}
+	
+	div.aboutme p {
+		background-color:white;
+		
+	}
+	
+	
+	div.portfolio {
+		background-color:white;
+		border:2px transparent solid;
+		background-color:white;
+		border-top-color:#7393B3;
+		border-bottom-color:#7393B3;
+		background-color:transparent;
+		margin:20px;
+		margin-right:50%;
+		padding-bottom:20px;
+		padding-top:9px;
+	}
+	
+	div.portfolio div {
+		display:flex;
+		justify-content:left;
+		text-align:center;
+		height:150px;
+		
+	}
+	
+	div.portfolio p {
+		color:black;
+		border: 1px transparent solid;
+		border-left-color:black;
+		background-color: white;
+		margin:20px 20px 20px 20px;
+		padding-left:15px;
+		
+	}
+	
+	img.one{
+		margin: 20px 20px 20px 20px;
+	}
+	img.two{
+		margin: 20px 20px 20px 20px;
+	}
+	img.three{
+		margin: 20px 20px 20px 20px;
+	}
+	
+	div.contactme {
+		background-color:white;
+		border:2px transparent solid;
+		background-color:white;
+		border-top-color:#7393B3;
+		border-bottom-color:#7393B3;
+		background-color:transparent;
+		margin:20px;
+		margin-right:50%;
+		padding-bottom:20px;
+		padding-top:9px;
+	}
+	
+	
+	
+	
+	div.contactme a {
+		background-color:white;
+		width:350px;
+		text-decoration:none;
+		display:inline;
+		justify-content: space-between;
+		color: #7393B3;
+		line-height:1.5em;
+		padding-left: 25px;
+		text-decoration:none;
+		height:90px;
+		font-size: 40px;
+		border-bottom-style: hidden;
+		
+		
+	}
+	
+	

@@ -19,9 +19,12 @@ body {
 		margin: 0 2px;
 		padding: 10px;
 		display: flex;
-		justify-content: space-around;
-		  }
+		justify-content: space-evenly;
+		transform: translate(0%, -1132%);
+		width:100%;
 		
+		
+	 }
 		
 	.links a{
 		display:inline;
@@ -34,6 +37,15 @@ body {
 		font-size: 40px;
 		border-bottom-style: hidden;
 		
+	}
+	
+	.links a:hover{
+		border:2px #0096FF solid;
+		border-radius:5px;
+	}
+	
+	.container {
+		padding-bottom:0px;
 	}
 	
 	button{
@@ -52,7 +64,7 @@ body {
 	img{
 	    max-height: 20%;
 	    max-width: 100%;
-		margin-bottom: -23px;
+		margin-bottom:-116px;
 	    
 	}
 	
@@ -97,7 +109,7 @@ body {
 	    border-top-color: black;
 	    border-bottom-color: black;
 	    background-color: #AEC6CF;
-	    padding-bottom: 200px;
+	    padding-bottom: 28px;
 	    padding-top: 13px;
 	    width: 100%;
 	    margin: 30px 46px 10px 0px;
@@ -115,7 +127,7 @@ body {
 	
 	div.portfolio p {
 	    color: black;
-	    border: 1px transparent solid;
+	    border: 1px black solid;
 	    border-left-color: black;
 	    background-color: white;
 	    margin: 17px 27px 27px 49px;

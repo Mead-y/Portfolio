@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+	font-family: ubuntu, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container{ 
+	background-image
+	height: 500px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: #581845;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    text-decoration: none;
+	text-align:center;
+	
+}
+
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
+
+.links a{
+	display:inline;
+	justify-content: space-between;
+	color: white;
+	line-height:1.5em;
+	padding-left: 25px;
+	text-decoration:none;
+	font-size: 30px;
+	
+}
+
+main {
+	
+}
+	
+div.aboutme
+{
+	background-color:#900c3f;
+	color:white;
+	margin:0;
+	padding:0;
+}	
+
+	 

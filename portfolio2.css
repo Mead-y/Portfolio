@@ -6,7 +6,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     /*background-image: url("https://images.pexels.com/photos/5044497/pexels-photo-5044497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-color: #cccccc;*/
 
@@ -104,7 +104,9 @@ body {
 	
 	
 	div.portfolio {
+	    display: flex;
 	    border: 2px transparent solid;
+		padding-right: 167px;
 	    background-color: #53DFD1;
 	    border-top-color: black;
 	    border-bottom-color: black;
@@ -114,6 +116,7 @@ body {
 	    width: 100%;
 	    margin: 30px 46px 10px 0px;
 	    padding-top: 21px;
+	    place-content: space-between;
 	}
 	
 	
@@ -125,12 +128,13 @@ body {
 		
 	}
 	
+	
 	div.portfolio p {
 	    color: black;
 	    border: 1px black solid;
 	    border-left-color: black;
 	    background-color: white;
-	    margin: 17px 27px 27px 49px;
+	    padding-right: 167px;
 	    padding-left: 20px;
 	    display: inline;
 	    padding-bottom: 14px;
@@ -139,12 +143,16 @@ body {
 	
 	img.one{
 		margin: 20px 20px 20px 20px;
+		max-height:100px;
+		
 	}
 	img.two{
 		margin: 20px 20px 20px 20px;
+		max-height:100px;
 	}
 	img.three{
 		margin: 20px 20px 20px 20px;
+		max-height:100px;
 	}
 	
 	div.contactme {
@@ -164,7 +172,6 @@ body {
 	
 	div.contactme a {
 		background-color:white;
-		width:350px;
 		text-decoration:none;
 		display:inline;
 		justify-content: space-between;
@@ -211,4 +218,10 @@ body {
 	    content: "\f09b";
 		color: #7393B3;
 		font-size:75px;
+	}
+	
+	@media screen and (max-width:500px) {
+	div.portfolio p {
+		width:50%;
+		}
 	}

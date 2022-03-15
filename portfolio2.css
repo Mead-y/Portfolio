@@ -1,52 +1,47 @@
 * {
     box-sizing: border-box;
 	margin: 0;
-	padding:0;
 	font-family: ubuntu, sans-serif;
 }
 
 body {
-    margin: 0px;
+    margin:0px;
     /*background-image: url("https://images.pexels.com/photos/5044497/pexels-photo-5044497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-color: #cccccc;*/
 
    }
 	
   div.links {
+	    background-color:transparent;
 		border-bottom-style: solid;
 		border-bottom-color: Lightgrey;
-		list-style: none;
-		margin: 0 2px;
 		padding: 10px;
 		display: flex;
 		justify-content: space-evenly;
 		transform: translate(0%, -1132%);
-		width:100%;
+		
+	
 		
 		
 	 }
 		
 	.links a{
 		display:inline;
-		justify-content: space-between;
 		color: #7393B3;
 		line-height:1.5em;
 		padding-left: 25px;
 		text-decoration:none;
 		height:90px;
 		font-size: 40px;
-		border-bottom-style: hidden;
+		
 		
 	}
 	
 	.links a:hover{
-		border:2px #0096FF solid;
-		border-radius:5px;
+		color:#0047AB;
+		
 	}
 	
-	.container {
-		padding-bottom:0px;
-	}
 	
 	button{
 	    background-color: #fff;
@@ -61,11 +56,9 @@ body {
 	    border-radius: 5px;
 	}
 	
-	img{
-	    max-height: 20%;
-	    max-width: 100%;
-		margin-bottom:-116px;
-	    
+	img {
+		max-height: 20%;
+		margin-bottom: -208px;
 	}
 	
 	div.aboutme {
@@ -76,9 +69,8 @@ body {
 	    background-color: #AEC6CF;
 	    padding-bottom: 200px;
 	    padding-top: 13px;
-	    width: 100%;
-	    margin: 30px 46px 10px 0px;
-	    padding-top: 21px;
+	    width: 95%;
+		margin: 118px 49px 12px 47px;
 	}
 		
 	
@@ -94,6 +86,7 @@ body {
 		justify-content:center;
 		text-align:center;
 		padding-left:10px;
+		
 	}
 	
 	div.aboutme p {
@@ -113,8 +106,8 @@ body {
 	    background-color: #AEC6CF;
 	    padding-bottom: 28px;
 	    padding-top: 13px;
-	    width: 100%;
-	    margin: 30px 46px 10px 0px;
+	    width: 95%;
+	    margin: 25px 49px 12px 47px;
 	    padding-top: 21px;
 	    place-content: space-between;
 	}
@@ -186,14 +179,18 @@ body {
 	
 	.contactme h2{
 		padding:0px;
+		
 	}
 	
 	.fa-linkedin:before {
 	    content: "\f08c";
-	 	color: #7393B3;
+	 	color:#0047AB;
 	    max-height:30px;
 		font-size:70px;
+		padding-left: 46px;
 	}
+	
+	
 	
 	
 	.contactme div{
@@ -204,24 +201,21 @@ body {
 	
 	.fa-envelope:before {
 	    content: "\f0e0";
-		color: #7393B3;
+		color: #0047AB;
 		font-size: 75px;
 	}
 
-	.fa-phone:before {
-	    content: "\f095";
-		color: #7393B3;
-		font-size:75px;
-	}
 	
 	.fa-github:before {
 	    content: "\f09b";
-		color: #7393B3;
+		color: #0047AB;
 		font-size:75px;
+		padding-right: 34px;
 	}
 	
 	@media screen and (max-width:500px) {
-	div.portfolio p {
-		width:50%;
-		}
+	img {
+	width:50%;
+	resize:50%;
+	
 	}

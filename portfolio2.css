@@ -103,9 +103,9 @@ body {
 	
 	
 	div.portfolio {
-	    display: flex;
+	    display: grid;
+		grid-template-columns:1fr 1fr 1fr;
 	    border: 2px transparent solid;
-		padding-top: 21px 167px 28px 0;
 	    background-color: #53DFD1;
 	    border-top-color: black;
 	    border-bottom-color: black;
@@ -129,23 +129,11 @@ body {
 	    border: 1px transparent solid;
 	    border-left-color: black;
 	    background-color: white;
-	    padding-right: 167px;
-	    padding-left: 20px;
-	    padding-bottom: 14px;
-		
+	    padding: 0 219px 14px 52px;
 	}
 	
 	img.one{
-		margin: 20px 20px 20px 20px;
-		max-height:100px;
-		
-	}
-	img.two{
-		margin: 20px 20px 20px 20px;
-		max-height:100px;
-	}
-	img.three{
-		margin: 20px 20px 20px 20px;
+		margin: 20px;
 		max-height:100px;
 	}
 
@@ -154,36 +142,60 @@ body {
 		
 	}
 	
-	.fa-linkedin:before {
-	    content: "\f08c";
-	 	color:#0047AB;
-	    max-height:30px;
-		font-size:70px;
-		padding-left: 46px;
-	}
-	
-	
-	
-	
 	.contactme div{
 		display:flex;
 		justify-content:space-between;
 		
 	}
 	
+	
+	.logos a{
+		color:#0047AB;
+		
+	}
+	
+	.fa-linkedin:before {
+	    content: "\f08c";
+	    max-height:30px;
+		font-size:70px;
+	}
+	
 	.fa-envelope:before {
 	    content: "\f0e0";
-		color: #0047AB;
 		font-size: 75px;
 	}
 
-	
 	.fa-github:before {
 	    content: "\f09b";
-		color: #0047AB;
 		font-size:75px;
 		padding-right: 34px;
 	}
+	
+    footer {
+		display:flex;
+		border:2px black solid;
+		background-color:#191970;
+		justify-content:space-evenly;
+		padding-right:95px;
+		
+	}
+	
+	div.logos {
+       padding: 0px 0px 0px 48px;
+	}
+	
+	footer h2{
+		color:#AEC6CF;
+		padding: 14px 43px;
+	}
+	
+	.fa-angle-up:before {
+	    content: "\f106";
+		color:white;
+		font-size: 40px;
+	}
+
+	
 	
 	@media screen and (max-width:500px) {
 	img {

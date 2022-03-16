@@ -1,4 +1,5 @@
 * {
+	scroll-behavior: smooth;
     box-sizing: border-box;
 	margin: 0;
 	font-family: ubuntu, sans-serif;
@@ -6,9 +7,6 @@
 
 body {
     margin:0px;
-    /*background-image: url("https://images.pexels.com/photos/5044497/pexels-photo-5044497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-color: #cccccc;*/
-
    }
 	
   div.links {
@@ -17,7 +15,9 @@ body {
 		border-bottom-color: Lightgrey;
 		padding: 10px;
 		display: flex;
-		transform: translate(-1%, -591%);
+
+		position: absolute;
+		top: 1px;
 		
 		
 	
@@ -56,17 +56,13 @@ body {
 	    border-radius: 5px;
 	}
 	
-	/*img {
-		max-height: 20%;
-		margin-bottom: -208px;
-	}*/
-		
 	nav.container {
 	    background-image: url("https://images.pexels.com/photos/5044497/pexels-photo-5044497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		display: flex;
 		padding-top: 693px;
 		padding-bottom: 188px;
 		justify-content:space-evenly;
+		position: relative;
 	}
 	
 	
@@ -78,13 +74,13 @@ body {
 	    padding-bottom: 200px;
 	    padding-top: 13px;
 	    width: 95%;
-		margin: 23px 49px 12px 47px;
+		margin: 10px auto;
 	}
 		
 	
 	
 	h2 {
-	    padding: 13px 35px;
+	    padding: 13px 12px;
 	}
 	
 
@@ -97,46 +93,36 @@ body {
 	
 	div.aboutme p {
 		margin:10px;
-		
-		
 	}
 	
-	
-	div.portfolio {
-	    display: grid;
-		grid-template-columns:1fr 1fr 1fr;
-	    border: 2px transparent solid;
-	    background-color: #53DFD1;
-	    border-top-color: black;
-	    border-bottom-color: black;
-	    background-color: #AEC6CF;
-	    width: 95%;
-	    margin: 25px 49px 12px 47px;
-	    justify-content: space-between;
+	.portfolio {
+		display:grid;
+		border:2px black solid;
+		width: 95%;
+		margin: 10px auto;
+		background-color:white;
 	}
 	
+	.portfolio h2 {
+		padding: 0 23px;
+		background-color:#6082B6;
+	}
+	
+	.portfolio img{
+	}
 	
 	div.portfolio div {
-		display:flex;
-		justify-content:left;
-		text-align:center;
-		height:150px;
 		
+		text-align:left;
+		padding-left:10px;
 	}
-	
 	
 	div.portfolio p {
-	    border: 1px transparent solid;
-	    border-left-color: black;
-	    background-color: white;
-	    padding: 0 219px 14px 52px;
+		display:inline;
+		text-align:left;
+		padding-left:10px;
 	}
 	
-	img.one{
-		margin: 20px;
-		max-height:100px;
-	}
-
 	.contactme h2{
 		padding:0px;
 		
@@ -197,9 +183,17 @@ body {
 
 	
 	
-	@media screen and (max-width:500px) {
-	img {
-	width:50%;
-	resize:50%;
-
+@media screen and (max-width:990px) {
+	.links a {
+		height: 120px;
 	}
+	div.links {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	div.links a{
+		color:black;
+	}
+	
+	

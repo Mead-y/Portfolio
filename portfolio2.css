@@ -15,15 +15,9 @@ body {
 		border-bottom-color: Lightgrey;
 		padding: 10px;
 		display: flex;
-
 		position: absolute;
 		top: 1px;
-		
-		
-	
-		
-		
-	 }
+		 }
 		
 	.links a{
 		display:inline;
@@ -42,23 +36,12 @@ body {
 		
 	}
 	
-	
-	button{
-	    background-color: #fff;
-	    color: #7393B3;
-	    padding: 22px 27px;
-	    text-align: center;
-	    text-decoration: none;
-	    font-size: 29px;
-	    height: 11px;
-	    width: 20px;
-	    margin: 10px;
-	    border-radius: 5px;
-	}
-	
 	nav.container {
+		width:100%;
 	    background-image: url("https://images.pexels.com/photos/5044497/pexels-photo-5044497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-		display: flex;
+		background-repeat:no-repeat;
+		background-size:cover;
+		display:flex;
 		padding-top: 693px;
 		padding-bottom: 188px;
 		justify-content:space-evenly;
@@ -80,6 +63,7 @@ body {
 	
 	
 	h2 {
+		font-size:30px;
 	    padding: 13px 12px;
 	}
 	
@@ -93,10 +77,11 @@ body {
 	
 	div.aboutme p {
 		margin:10px;
+		font-size:20px;
 	}
 	
 	.portfolio {
-		display:grid;
+		justify-content:space-between;
 		border:2px black solid;
 		width: 95%;
 		margin: 10px auto;
@@ -108,19 +93,19 @@ body {
 		background-color:#6082B6;
 	}
 	
-	.portfolio img{
+	
+	.portfolio div {
+		display:flex;
+		text-align:right;
+		padding-left:10px;
+		width:100%;
 	}
 	
-	div.portfolio div {
-		
-		text-align:left;
-		padding-left:10px;
-	}
-	
-	div.portfolio p {
-		display:inline;
-		text-align:left;
-		padding-left:10px;
+	.portfolio p {
+		text-align:center;
+		padding:10px 10px;
+		width:100%;
+		font-size:20px;
 	}
 	
 	.contactme h2{
@@ -162,7 +147,7 @@ body {
 		border:2px black solid;
 		background-color:#191970;
 		justify-content:space-evenly;
-		padding-right:95px;
+		padding-right:125px;
 		
 	}
 	
@@ -191,9 +176,13 @@ body {
 		width: 100%;
 		flex-direction: column;
 	}
-	
+
 	div.links a{
 		color:black;
 	}
-	
-	
+
+	@media screen and (max-width:700px) {
+		.portfolio div {
+			flex-direction:column;
+		}
+		

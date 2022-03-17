@@ -1,0 +1,188 @@
+* {
+	scroll-behavior: smooth;
+    box-sizing: border-box;
+	margin: 0;
+	font-family: ubuntu, sans-serif;
+}
+
+body {
+    margin:0px;
+   }
+	
+  div.links {
+	    background-color:transparent;
+		border-bottom-style: solid;
+		border-bottom-color: Lightgrey;
+		padding: 10px;
+		display: flex;
+		position: absolute;
+		top: 1px;
+		 }
+		
+	.links a{
+		display:inline;
+		color: #7393B3;
+		line-height:1.5em;
+		padding: 9px 29px 24px 52px;
+		text-decoration:none;
+		height:90px;
+		font-size: 40px;
+		
+		
+	}
+	
+	.links a:hover{
+		color:#0047AB;
+		
+	}
+	
+	nav.container {
+		width:100%;
+	    background-image: url("https://images.pexels.com/photos/5044497/pexels-photo-5044497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		background-repeat:no-repeat;
+		background-size:cover;
+		display:flex;
+		padding-top: 693px;
+		padding-bottom: 188px;
+		justify-content:space-evenly;
+		position: relative;
+	}
+	
+	
+	div.aboutme {
+	    border: 2px transparent solid;
+	    border-top-color: black;
+	    border-bottom-color: black;
+	    background-color: #AEC6CF;
+	    padding-bottom: 200px;
+	    padding-top: 13px;
+	    width: 95%;
+		margin: 10px auto;
+	}
+		
+	
+	
+	h2 {
+		font-size:30px;
+	    padding: 13px 12px;
+	}
+	
+
+	
+	div.aboutme div {
+		text-align:center;
+		padding-left:10px;
+		
+	}
+	
+	div.aboutme p {
+		margin:10px;
+		font-size:20px;
+	}
+	
+	.portfolio {
+		justify-content:space-between;
+		border:2px black solid;
+		width: 95%;
+		margin: 10px auto;
+		background-color:white;
+	}
+	
+	.portfolio h2 {
+		padding: 0 23px;
+		background-color:#6082B6;
+	}
+	
+	
+	.portfolio div {
+		display:flex;
+		text-align:right;
+		padding-left:10px;
+		width:100%;
+	}
+	
+	.portfolio p {
+		text-align:center;
+		padding:10px 10px;
+		width:100%;
+		font-size:20px;
+	}
+	
+	.contactme h2{
+		padding:0px;
+		
+	}
+	
+	.contactme div{
+		display:flex;
+		justify-content:space-between;
+		
+	}
+	
+	
+	.logos a{
+		color:#0047AB;
+		
+	}
+	
+	.fa-linkedin:before {
+	    content: "\f08c";
+	    max-height:30px;
+		font-size:70px;
+	}
+	
+	.fa-envelope:before {
+	    content: "\f0e0";
+		font-size: 75px;
+	}
+
+	.fa-github:before {
+	    content: "\f09b";
+		font-size:75px;
+		padding-right: 34px;
+	}
+	
+    footer {
+		display:flex;
+		border:2px black solid;
+		background-color:#191970;
+		justify-content:space-evenly;
+		padding-right:125px;
+		
+	}
+	
+	div.logos {
+       padding: 0px 0px 0px 48px;
+	}
+	
+	footer h2{
+		color:#AEC6CF;
+		padding: 14px 43px;
+	}
+	
+	.fa-angle-up:before {
+	    content: "\f106";
+		color:white;
+		font-size: 40px;
+	}
+
+	
+	
+@media screen and (max-width:990px) {
+	.links a {
+		height: 120px;
+	}
+	div.links {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	div.links a{
+		color:black;
+	}
+
+	@media screen and (max-width:700px) {
+		.portfolio div {
+			flex-direction:column;
+		}
+		
